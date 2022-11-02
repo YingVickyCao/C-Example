@@ -4,13 +4,15 @@ void set_int_value();
 void set_float_value();
 void set_double_value();
 void set_char_value();
+void use_variable();
 
 int main(int argc, const char* argv[]){
     printf("Hello World\n");
 //    set_int_value();
-//    set_float_value();
+    set_float_value();
 //    set_double_value();
-    set_char_value();
+//    set_char_value();
+    use_variable();
     return 0;
 }
 
@@ -61,6 +63,12 @@ void set_float_value(){
     // 只能精确保存12.12345（除了.,共7位），超出的部分，不能精确保存。打印出的最后7，刚好凑齐而已。
     f1 = 12.123456789f; // 12.123457
     printf("%f\n",f1);
+    
+    f1 = 1234567.123456789f;
+    printf("%f\n",f1);  // TODO: 1234567.125000
+
+    f1 = 12345678.123456789f;
+    printf("%f\n",f1);  // TODO: 12345678.000000
 }
 
 /**
@@ -94,4 +102,48 @@ void set_char_value(){
     
     ch = ' ';    // 空格
     printf("%c\n",ch);
+}
+
+/**
+ 如何使用存储在变量中的数据呢？
+ （1）想用的时候，直接写上变量的名字，就可以使用了
+ （2）使用变量最常见的方式，是将变量的值输出。
+ printf 函数输出变量的值。
+ 
+ printf("格式控制字符传",变量列表);
+ 
+ 在格式控制字符串中，如果有地方要显示变量的值。那么就使用1个占位符来占位。
+ 输出的变量的类型不同，占位符是不一样的。
+ int, %d
+ float, %f, 默认输出小数点后面的6位
+ double,%lf, 默认输出小数点后面的6位
+ char, %c
+ 
+ 输出变量时，使用占位符和输出的变量类型不匹配，那么输出的结果就是错误的。
+ */
+void use_variable(){
+    int num1=10;
+    int num2=20;
+    
+    int result = num1+num2;
+    printf("%d\n",result);  // 30
+    
+    printf("value of sum is result\n"); // value of sum is result
+    
+    // %d 表示这个变量不要原样输出，而是输出这个变量的值
+    printf("value of sum is %d\n",result); // value of sum is 30
+    
+    float money = 100.12f;
+    printf("I have %f CNY\n",money);    // I have 100.120003 CNY
+    
+    double treeHeight = 100.12;
+    printf("The high tree is %lf tall\n",treeHeight);    // The high tree is 100.120000 tall
+    
+    char myChar;
+    myChar = 'z';
+    printf("This char value is %c\n",myChar);   // This char value is z
+    
+    
+    // 1次输出多变量
+    printf("CNY is %f, and tree height is %lf \n",money,treeHeight);   // CNY is 2, and tree height is 100.120003
 }
