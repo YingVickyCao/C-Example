@@ -120,6 +120,10 @@ void set_char_value(){
  char, %c
  
  输出变量时，使用占位符和输出的变量类型不匹配，那么输出的结果就是错误的。
+ 
+ 输出多个变量时，依此写上要占位的变量
+ （a）后面的变量一定要按照顺序来写，因为填占位符的时候，是根据顺序来占位的。否则就会混乱。
+ （b）后面的变量的个数要和前面的占位符一致。如果没有变量填的就是随机值。
  */
 void use_variable(){
     int num1=10;
@@ -144,6 +148,15 @@ void use_variable(){
     printf("This char value is %c\n",myChar);   // This char value is z
     
     
-    // 1次输出多变量
-    printf("CNY is %f, and tree height is %lf \n",money,treeHeight);   // CNY is 2, and tree height is 100.120003
+    // 1次输出多个变量
+    printf("%f,%lf,%c\n",money,treeHeight, myChar);   // 100.120003,100.120000,z
+
+    // 输出多个变量时，占位符与变量不对应也能运行，但是结果不正确。
+    printf("%f,%lf,%c\n",myChar,money,treeHeight);   // 100.120003,100.120000,z
+
+    // 输出多个变量时，少了参数也能运行，但是结果不正确。
+    printf("%f,%lf,%c\n",money);   // 100.120003,0.000000, 
+    
+    // 输出多个变量时，少了参数也能运行，但是结果不正确。
+    printf("%f,%c，%lf\n",money);   // 100.120003,，10.997869 
 }
