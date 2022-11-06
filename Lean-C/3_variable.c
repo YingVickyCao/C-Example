@@ -5,14 +5,16 @@ void set_float_value();
 void set_double_value();
 void set_char_value();
 void use_variable();
+void variable_tip();
 
 int main(int argc, const char* argv[]){
     printf("Hello World\n");
 //    set_int_value();
-    set_float_value();
+//    set_float_value();
 //    set_double_value();
 //    set_char_value();
-    use_variable();
+//    use_variable();
+    variable_tip();
     return 0;
 }
 
@@ -136,7 +138,7 @@ void use_variable(){
     
     // %d 表示这个变量不要原样输出，而是输出这个变量的值
     printf("value of sum is %d\n",result); // value of sum is 30
-    
+     
     float money = 100.12f;
     printf("I have %f CNY\n",money);    // I have 100.120003 CNY
     
@@ -159,4 +161,62 @@ void use_variable(){
     
     // 输出多个变量时，少了参数也能运行，但是结果不正确。
     printf("%f,%c，%lf\n",money);   // 100.120003,，10.997869 
+}
+
+/**
+ 
+ 使用变量时，注意事项：
+1） 有double，为何还要有float？
+double 的空间是float 空间的两倍。如果数据本身有效位数不超过7位，那么使用double 才存储会比较浪费。
+2) 可以在声明变量的同时位变量赋值。也就是 初始化
+ 初始化，比先声明后赋值，更高效
+3) 可批量声明多个相同类型的变量
+ 前提是类型相同的变量
+ 4） 赋值语句的规范
+ 赋值号两边留空格
+ 
+ 5) 垃圾值
+ 声明1个变量，如果没有为这个变量赋值，这种变量中是有值的。该值是一个随机数。这个值叫垃圾值。值是不确定的。
+ 所以，为了保证程序不会出意想不到的问题，要求声明1个变量后，应该立即为这个变量赋值1个初始值。
+ 
+ 6) 变量可以重新赋值
+ 变量重新赋值，新值覆盖旧值，旧值消失。
+ 
+ 7) 为变量赋值时，把另一个变量的值设给它.
+ 变量之间的赋值原理：
+ 将源变量的值复制1份，将这个副本赋值给目标变量，但源变量的值还在。
+
+ 8) 使用变量之前，必须保证变量已经声明了
+ 
+ 9）同一个变量不允许重复定义。
+ */
+
+void variable_tip(){
+    // 初始化
+    int count = 0;
+    
+    // 先声明后赋值
+    int score;
+    score = 1;
+    
+    // 批量声明
+    int num1, num2=8,num3=5;
+    
+    // 赋值语句的规范
+    int num = 3;
+    
+    // 垃圾值
+//    int year;    // not should
+    int year = 0; // ok
+    int next_year = year + 1;
+    printf("%d\,%d\n",year,next_year); // 48,49
+    
+    // 变量可以重新赋值
+    num  = 30;
+    printf("%d\n",num); // 30
+    
+    
+    // 为变量赋值时，把另一个变量的值设给它.
+    int n1 = num;
+    printf("%d\,%d\n",num,n1); // 30,30
 }
