@@ -20,7 +20,7 @@ void prinf_int();
 void prinf_double();
 
 //int main(int argc, const char* argv[]){
-int main_mark(int argc, const char* argv[]){
+int test_prinf(int argc, const char* argv[]){
     //    prinf_int();
         prinf_double();
     return 0;

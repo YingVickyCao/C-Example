@@ -4,7 +4,7 @@
 void auto_type_convert();
 
 //int main(int argc, const char* argv[]){
-int main_mark(int argc, const char* argv[]){
+int test_auto_type_convert(int argc, const char* argv[]){
     auto_type_convert();
     return 0;
 }

@@ -7,12 +7,8 @@ void set_char_value();
 void use_variable();
 void variable_tip();
 
-void use_printf();
-void prinf_int();
-void prinf_double();
-
 //int main(int argc, const char* argv[]){
-int main_mark(int argc, const char* argv[]){
+int test_variable(int argc, const char* argv[]){
 //    printf("Hello World\n");
 //    set_int_value();
 //    set_float_value();
@@ -20,7 +16,6 @@ int main_mark(int argc, const char* argv[]){
 //    set_char_value();
 //    use_variable();
 //    variable_tip();
-//    use_printf();
     return 0;
 }
 
