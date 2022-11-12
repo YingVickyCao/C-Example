@@ -2,8 +2,8 @@
 /**
  交换两个变量的值
  */
-int main(int argc, const char* argv[]){
-//int main_variable_wap_value(int argc, const char* argv[]){
+//int main(int argc, const char* argv[]){
+int main_variable_wap_value(int argc, const char* argv[]){
     
     // Way 1
     {
@@ -42,4 +42,5 @@ int main(int argc, const char* argv[]){
         
         printf("%d,%d\n",a,b);
     }
+    return 0;
 }
