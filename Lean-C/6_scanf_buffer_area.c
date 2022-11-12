@@ -17,8 +17,8 @@
  rewind(stdin);
 
  */
-int main(int argc, const char *argv[]) {
-//int main_scanf_buffer_area(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_scanf_buffer_area(int argc, const char *argv[]) {
     {
         /**
          Pease input num1:10 20
@@ -74,4 +74,5 @@ int main(int argc, const char *argv[]) {
         scanf("%c", &ch);
         printf("ch is %c",ch);
     }
+    return 0;
 }
