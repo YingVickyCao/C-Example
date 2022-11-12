@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main(int argc, const char *argv[]) {
+    // Warning : Relational comparison result unused
     10 > 20; // 比较表达式
     int result = 10 > 20;
     printf("%d\n",result);  // 0
     
     printf("%d\n",(10 < 20));  // 0
     printf("%d\n",(10 <= 20));  // 1
+    printf("%d\n",(10 == 10));  // 1
+    printf("%d\n",(10 != 20));  // 1
     return 0;
 }
 /**

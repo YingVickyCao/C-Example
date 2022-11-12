@@ -30,7 +30,7 @@ int main_7_3(int argc, const char *argv[]) {
 }
 
 /**
- 自增自减运算
+ 自增自减运算符
  
  1 自增运算符
  1) 前自增表达式

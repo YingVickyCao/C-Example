@@ -14,7 +14,7 @@
 		28C458B5291F5693009B4F76 /* 3_2_交换两个变量的值.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */; };
 		28C458B7291F7FD5009B4F76 /* 7_1_算术运算符_算术表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B6291F7FD5009B4F76 /* 7_1_算术运算符_算术表达式.c */; };
 		28C458B9291F939A009B4F76 /* 7_2_赋值运算符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B8291F939A009B4F76 /* 7_2_赋值运算符.c */; };
-		28C458BB291F956B009B4F76 /* 7_3_自增自减运算.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BA291F956B009B4F76 /* 7_3_自增自减运算.c */; };
+		28C458BB291F956B009B4F76 /* 7_3_自增自减运算符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BA291F956B009B4F76 /* 7_3_自增自减运算符.c */; };
 		28C458BD291F9A8C009B4F76 /* 7_4_逗号运算符_逗号表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BC291F9A8C009B4F76 /* 7_4_逗号运算符_逗号表达式.c */; };
 		28C458BF291F9E8A009B4F76 /* 7_5_比较运算符_比较表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BE291F9E8A009B4F76 /* 7_5_比较运算符_比较表达式.c */; };
 		28E4350529114E1600216C1A /* 1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4350429114E1600216C1A /* 1_main.c */; };
@@ -61,7 +61,7 @@
 		28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_交换两个变量的值.c"; sourceTree = "<group>"; };
 		28C458B6291F7FD5009B4F76 /* 7_1_算术运算符_算术表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_1_算术运算符_算术表达式.c"; sourceTree = "<group>"; };
 		28C458B8291F939A009B4F76 /* 7_2_赋值运算符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_2_赋值运算符.c"; sourceTree = "<group>"; };
-		28C458BA291F956B009B4F76 /* 7_3_自增自减运算.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_3_自增自减运算.c"; sourceTree = "<group>"; };
+		28C458BA291F956B009B4F76 /* 7_3_自增自减运算符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_3_自增自减运算符.c"; sourceTree = "<group>"; };
 		28C458BC291F9A8C009B4F76 /* 7_4_逗号运算符_逗号表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_4_逗号运算符_逗号表达式.c"; sourceTree = "<group>"; };
 		28C458BE291F9E8A009B4F76 /* 7_5_比较运算符_比较表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_5_比较运算符_比较表达式.c"; sourceTree = "<group>"; };
 		28E4350229114E1600216C1A /* Example2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +127,7 @@
 				28C458B2291F1A80009B4F76 /* 6_2_scanf函数的缓冲区.c */,
 				28C458B6291F7FD5009B4F76 /* 7_1_算术运算符_算术表达式.c */,
 				28C458B8291F939A009B4F76 /* 7_2_赋值运算符.c */,
-				28C458BA291F956B009B4F76 /* 7_3_自增自减运算.c */,
+				28C458BA291F956B009B4F76 /* 7_3_自增自减运算符.c */,
 				28C458BC291F9A8C009B4F76 /* 7_4_逗号运算符_逗号表达式.c */,
 				28C458BE291F9E8A009B4F76 /* 7_5_比较运算符_比较表达式.c */,
 			);
@@ -256,7 +256,7 @@
 				28C458B5291F5693009B4F76 /* 3_2_交换两个变量的值.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 6_2_scanf函数的缓冲区.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 7_4_逗号运算符_逗号表达式.c in Sources */,
-				28C458BB291F956B009B4F76 /* 7_3_自增自减运算.c in Sources */,
+				28C458BB291F956B009B4F76 /* 7_3_自增自减运算符.c in Sources */,
 				2832EEA3291AA0F90093D80C /* 6_1_scanf.c in Sources */,
 				28C458B9291F939A009B4F76 /* 7_2_赋值运算符.c in Sources */,
 				28A7ABFA291BE0F800670DF3 /* 4_printf.c in Sources */,
