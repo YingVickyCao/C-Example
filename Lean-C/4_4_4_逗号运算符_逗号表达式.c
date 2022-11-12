@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_7_4(int argc, const char *argv[]) {
+int main_4_4_4(int argc, const char *argv[]) {
     int i = 0, j = 1, k=2;
     int result = (i+3,j+3, k+3, i+k);
     printf("%d\n",result);  // 2

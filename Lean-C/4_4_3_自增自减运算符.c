@@ -1,6 +1,6 @@
 #include <stdio.h>
 //int main(int argc, const char *argv[]) {
-int main_7_3(int argc, const char *argv[]) {
+int main_4_4_3(int argc, const char *argv[]) {
     {
         int num = 1;
         int result = ++num;

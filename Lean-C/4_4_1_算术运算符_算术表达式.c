@@ -1,6 +1,6 @@
 #include <stdio.h>
 //int main(int argc, const char *argv[]) {
-int main_operator_arithmetic(int argc, const char *argv[]) {
+int main_4_4_1(int argc, const char *argv[]) {
     // 2 算术表达式
     //表达式的顺序：先声明int类型的变量sum，然后计算10+10的结果，最后把这个表达式的结果赋值给sum变量。
     int sum = 10 + 20;

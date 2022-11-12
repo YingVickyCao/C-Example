@@ -1,6 +1,6 @@
 #include <stdio.h>
 //int main(int argc, const char *argv[]) {
-int main_assigning_operator(int argc, const char *argv[]) {
+int main_4_4_2(int argc, const char *argv[]) {
     {
         // 赋值运算符
         int num = 10;
