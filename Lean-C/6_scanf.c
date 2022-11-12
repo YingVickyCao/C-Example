@@ -28,9 +28,6 @@
 
  (8) 如果使用scanf函数一次性输入多个数据，只能是数（整数和浮点数），如果有char混合输入，就会出问题。
 
- (9)scanf 的缓冲区
-
-
  注意：
  (1) 如果程序没有输出信息，下面的控制台输出区域不会自动弹出来。
  (2) 如果之前的程序没有停止，要再运行程序的话，建议将之前的程序停掉。否则可能会出现一些乱七八糟的情况。
@@ -38,8 +35,8 @@
  (4) scanf函数后面, 要写上变量的地址，而不是变量。
  (5) 占位符与后面的变量类型要对应， 否则就会出现意想不到的情况
  */
-int main(int argc, const char *argv[]) {
-    // int main_scanf(int argc, const char* argv[]){
+// int main(int argc, const char *argv[]) {
+int main_scanf(int argc, const char *argv[]) {
     {
         int num = 0;
         printf("Please input a int value:");
@@ -101,5 +98,6 @@ int main(int argc, const char *argv[]) {
         scanf("%d%f%c", &num, &f, &ch);
         printf("Data is num3=%d,f2=%f,ch2=%c\n", num, f, ch);
     }
+
     return 0;
 }
