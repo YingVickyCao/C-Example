@@ -30,7 +30,7 @@ int main_4_4_5(int argc, const char *argv[]) {
     return 0;
 }
 /**
- 1 比较运算符
+ 1 比较运算符, 有时也叫关系运算符
      >
      >= : 大于或等于
      <
@@ -64,4 +64,7 @@ int main_4_4_5(int argc, const char *argv[]) {
     e.g., 让用户输入2个字符，假设都是小写字母。怎么判断哪个在前面？
     char ch1, ch2;
     ch1 < ch2;
+ 
+ 5 比较表达式的缺点：
+    1 个表达式只能描述1个条件。
  */

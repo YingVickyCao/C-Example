@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */; };
+		282F599A2925A23500B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F59992925A23500B91ECD /* 5_1_IF.c */; };
+		282F599C2925AD7F00B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599B2925AD7F00B91ECD /* 5_1_IF.c */; };
 		2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2832EEA2291AA0F90093D80C /* 4_3_scanf.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
@@ -17,6 +20,7 @@
 		28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BA291F956B009B4F76 /* 4_4_3_自增自减运算符.c */; };
 		28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BC291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c */; };
 		28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BE291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c */; };
+		28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458C3291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c */; };
 		28E4350529114E1600216C1A /* 1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4350429114E1600216C1A /* 1_main.c */; };
 		28E4351729116AD000216C1A /* 3_1_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351629116AD000216C1A /* 3_1_variable.c */; };
 		28E4351D29116C3C00216C1A /* 2_Comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351B29116B4A00216C1A /* 2_Comment.c */; };
@@ -53,6 +57,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_5_运算符的优先级和结核性.c"; sourceTree = "<group>"; };
+		282F59992925A23500B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
+		282F599B2925AD7F00B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
 		2832EEA2291AA0F90093D80C /* 4_3_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3_scanf.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 		28C458BA291F956B009B4F76 /* 4_4_3_自增自减运算符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_3_自增自减运算符.c"; sourceTree = "<group>"; };
 		28C458BC291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_4_逗号运算符_逗号表达式.c"; sourceTree = "<group>"; };
 		28C458BE291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_5_比较运算符_比较表达式.c"; sourceTree = "<group>"; };
+		28C458C3291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_6_逻辑运算符_逻辑表达式.c"; sourceTree = "<group>"; };
 		28E4350229114E1600216C1A /* Example2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example2; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4350429114E1600216C1A /* 1_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_main.c; sourceTree = "<group>"; };
 		28E4350D29114EC100216C1A /* Example-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Example-3"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282F59982925A1F200B91ECD /* 5_流程控制 */ = {
+			isa = PBXGroup;
+			children = (
+				282F59992925A23500B91ECD /* 5_1_IF.c */,
+				282F599B2925AD7F00B91ECD /* 5_1_IF.c */,
+			);
+			path = "5_流程控制";
+			sourceTree = "<group>";
+		};
 		28B28081290FFE70000C1909 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +139,7 @@
 				28E4351629116AD000216C1A /* 3_1_variable.c */,
 				28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */,
 				28C458C1291FAB53009B4F76 /* 4_表达式 */,
+				282F59982925A1F200B91ECD /* 5_流程控制 */,
 			);
 			path = "Lean-C";
 			sourceTree = "<group>";
@@ -146,6 +164,8 @@
 				28C458BA291F956B009B4F76 /* 4_4_3_自增自减运算符.c */,
 				28C458BC291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c */,
 				28C458BE291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c */,
+				28C458C3291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c */,
+				282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */,
 			);
 			path = "4_4_运算符_表达式";
 			sourceTree = "<group>";
@@ -265,14 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */,
 				28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */,
 				28E4351729116AD000216C1A /* 3_1_variable.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
+				282F599A2925A23500B91ECD /* 5_1_IF.c in Sources */,
 				28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */,
 				28C458B5291F5693009B4F76 /* 3_2_交换两个变量的值.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
+				282F599C2925AD7F00B91ECD /* 5_1_IF.c in Sources */,
 				28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */,
+				282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */,
 				2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */,
 				28C458B9291F939A009B4F76 /* 4_4_2_赋值运算符.c in Sources */,
 				28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */,
