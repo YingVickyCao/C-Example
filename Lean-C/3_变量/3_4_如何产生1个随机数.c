@@ -1,8 +1,8 @@
 // 如何产生1个随机数
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, const char *argv[]) {
-//int main_5_(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_3_4(int argc, const char *argv[]) {
     
     // 1 产生1个0到9的随机数
     int num = arc4random_uniform(10); // 0~9;
