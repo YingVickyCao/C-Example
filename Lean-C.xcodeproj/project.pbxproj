@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */; };
 		282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599D2925AE6A00B91ECD /* 5_1_IF.c */; };
-		282F59A02925AFE600B91ECD /* 3_3_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_3_变量的作用域.c */; };
+		282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */; };
 		2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2832EEA2291AA0F90093D80C /* 4_3_scanf.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
 		28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */; };
+		28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */; };
+		28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */; };
+		28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6F292674A500C5BA41 /* 3_4_如何产生1个随机数.c */; };
 		28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B2291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c */; };
-		28C458B5291F5693009B4F76 /* 3_2_交换两个变量的值.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */; };
+		28C458B5291F5693009B4F76 /* 3_3_交换两个变量的值.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B4291F5693009B4F76 /* 3_3_交换两个变量的值.c */; };
 		28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B6291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c */; };
 		28C458B9291F939A009B4F76 /* 4_4_2_赋值运算符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458B8291F939A009B4F76 /* 4_4_2_赋值运算符.c */; };
 		28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458BA291F956B009B4F76 /* 4_4_3_自增自减运算符.c */; };
@@ -60,14 +63,17 @@
 /* Begin PBXFileReference section */
 		282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_5_运算符的优先级和结核性.c"; sourceTree = "<group>"; };
 		282F599D2925AE6A00B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
-		282F599F2925AFE600B91ECD /* 3_3_变量的作用域.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_3_变量的作用域.c"; sourceTree = "<group>"; };
+		282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_变量的作用域.c"; sourceTree = "<group>"; };
 		2832EEA2291AA0F90093D80C /* 4_3_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3_scanf.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
 		28B2808A290FFE71000C1909 /* Lean-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lean-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_2_IF_ELSE.c; sourceTree = "<group>"; };
+		28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_3_IF_ELSE_IF.c; sourceTree = "<group>"; };
+		28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5_4_三元表达式.c"; sourceTree = "<group>"; };
+		28B8CE6F292674A500C5BA41 /* 3_4_如何产生1个随机数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_4_如何产生1个随机数.c"; sourceTree = "<group>"; };
 		28C458B2291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_3_scanf函数的缓冲区.c"; sourceTree = "<group>"; };
-		28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_交换两个变量的值.c"; sourceTree = "<group>"; };
+		28C458B4291F5693009B4F76 /* 3_3_交换两个变量的值.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_3_交换两个变量的值.c"; sourceTree = "<group>"; };
 		28C458B6291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_1_算术运算符_算术表达式.c"; sourceTree = "<group>"; };
 		28C458B8291F939A009B4F76 /* 4_4_2_赋值运算符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_2_赋值运算符.c"; sourceTree = "<group>"; };
 		28C458BA291F956B009B4F76 /* 4_4_3_自增自减运算符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_3_自增自减运算符.c"; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 			children = (
 				282F599D2925AE6A00B91ECD /* 5_1_IF.c */,
 				28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */,
+				28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */,
+				28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */,
 			);
 			path = "5_流程控制";
 			sourceTree = "<group>";
@@ -118,9 +126,10 @@
 		282F59A12925B06400B91ECD /* 3_变量 */ = {
 			isa = PBXGroup;
 			children = (
+				28B8CE6F292674A500C5BA41 /* 3_4_如何产生1个随机数.c */,
 				28E4351629116AD000216C1A /* 3_1_variable.c */,
-				28C458B4291F5693009B4F76 /* 3_2_交换两个变量的值.c */,
-				282F599F2925AFE600B91ECD /* 3_3_变量的作用域.c */,
+				28C458B4291F5693009B4F76 /* 3_3_交换两个变量的值.c */,
+				282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */,
 			);
 			path = "3_变量";
 			sourceTree = "<group>";
@@ -298,20 +307,23 @@
 			files = (
 				28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */,
 				28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */,
+				28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */,
 				28E4351729116AD000216C1A /* 3_1_variable.c in Sources */,
+				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
 				28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */,
-				28C458B5291F5693009B4F76 /* 3_2_交换两个变量的值.c in Sources */,
+				28C458B5291F5693009B4F76 /* 3_3_交换两个变量的值.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
 				28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */,
 				28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */,
+				28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */,
 				282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */,
 				2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */,
 				28C458B9291F939A009B4F76 /* 4_4_2_赋值运算符.c in Sources */,
 				28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */,
-				282F59A02925AFE600B91ECD /* 3_3_变量的作用域.c in Sources */,
+				282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,8 @@
  */
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_5_2(int argc, const char *argv[]) {
     int score = 60;
     
     // bad : 条件要判断两次
@@ -23,7 +24,6 @@ int main(int argc, const char *argv[]) {
     if(score < 60){
         printf("不及格\n");
     }
-    
     // Good
     if(score >= 60){ // 真
         printf("及格\n");
@@ -33,4 +33,3 @@ int main(int argc, const char *argv[]) {
     
     return 0;
 }
-
