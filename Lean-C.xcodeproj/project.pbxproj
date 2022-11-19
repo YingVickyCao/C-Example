@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */ = {isa = PBXBuildFile; fileRef = 281B20D92928DDA00065D5F4 /* 5_9_for.c */; };
 		282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */; };
 		282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599D2925AE6A00B91ECD /* 5_1_IF.c */; };
 		282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */; };
@@ -65,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		281B20D92928DDA00065D5F4 /* 5_9_for.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_9_for.c; sourceTree = "<group>"; };
 		282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_5_运算符的优先级和结核性.c"; sourceTree = "<group>"; };
 		282F599D2925AE6A00B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
 		282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_变量的作用域.c"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				2867949D29287ADC007DB97E /* 5_6_while.c */,
 				2867949F2928D01A007DB97E /* 5_7_break_and_continue.c */,
 				286794A12928D8BC007DB97E /* 5_8_do_while.c */,
+				281B20D92928DDA00065D5F4 /* 5_9_for.c */,
 			);
 			path = "5_流程控制";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */,
 				28E4351729116AD000216C1A /* 3_1_variable.c in Sources */,
 				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
+				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
 				2867949E29287ADC007DB97E /* 5_6_while.c in Sources */,

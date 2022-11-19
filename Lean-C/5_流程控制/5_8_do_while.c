@@ -1,6 +1,7 @@
 // do while
 #include <stdio.h>
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_5_8(int argc, const char *argv[]) {
     {
         /**
          1
