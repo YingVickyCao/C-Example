@@ -1,6 +1,41 @@
 #include <stdio.h>
 
+//int main(int argc, const char *argv[]) {
+int main_5_1(int argc, const char *argv[]) {
+    // (1)
+    int score = 85;
+    if (score > 60) {
+        printf("及格\n"); // invloked
+        printf("Good\n");
+    }; // 这个分号可以不加，默认也是不加
+
+    //  (2)
+    int num = 50;
+    if (num + 10 > 0) { // good
+        printf("哈哈\n");
+    }
+    if (num + 10) { // bad,没有什么意义，
+        printf("哈哈\n");
+    }
+
+    // (3)
+    if (1) {
+        printf("is always invoked");
+    }
+
+    if (0) {
+        printf("is never invoked");
+    }
+
+    return 0;
+}
 /**
+ 
+ 一、顺序结构
+ 从上到下，一句一句执行。
+ 每一行代码都要执行。
+ 
+ 二、分支结构
  1 比较表达式和逻辑表达式，称为条件表达式
      条件表达式，描述的是1个或多个条件。
 
@@ -39,32 +74,3 @@
      (4) 保持正确的代码缩进 -> 可读性
      格式化快捷键 Ctrl + I
  */
-//int main(int argc, const char *argv[]) {
-int main_5_1(int argc, const char *argv[]) {
-    // (1)
-    int score = 85;
-    if (score > 60) {
-        printf("及格\n"); // invloked
-        printf("Good\n");
-    }; // 这个分号可以不加，默认也是不加
-
-    //  (2)
-    int num = 50;
-    if (num + 10 > 0) { // good
-        printf("哈哈\n");
-    }
-    if (num + 10) { // bad,没有什么意义，
-        printf("哈哈\n");
-    }
-
-    // (3)
-    if (1) {
-        printf("is always invoked");
-    }
-
-    if (0) {
-        printf("is never invoked");
-    }
-
-    return 0;
-}
