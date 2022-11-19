@@ -12,6 +12,7 @@
 		282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */; };
 		2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2832EEA2291AA0F90093D80C /* 4_3_scanf.c */; };
 		2867949E29287ADC007DB97E /* 5_6_while.c in Sources */ = {isa = PBXBuildFile; fileRef = 2867949D29287ADC007DB97E /* 5_6_while.c */; };
+		286794A02928D01A007DB97E /* 5_7_break_and_continue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2867949F2928D01A007DB97E /* 5_7_break_and_continue.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
 		28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */; };
@@ -68,6 +69,7 @@
 		282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_变量的作用域.c"; sourceTree = "<group>"; };
 		2832EEA2291AA0F90093D80C /* 4_3_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3_scanf.c; sourceTree = "<group>"; };
 		2867949D29287ADC007DB97E /* 5_6_while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_6_while.c; sourceTree = "<group>"; };
+		2867949F2928D01A007DB97E /* 5_7_break_and_continue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_7_break_and_continue.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
 		28B2808A290FFE71000C1909 /* Lean-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lean-C"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */,
 				28EE5E032926F4E900D48864 /* 5_5_Switch.c */,
 				2867949D29287ADC007DB97E /* 5_6_while.c */,
+				2867949F2928D01A007DB97E /* 5_7_break_and_continue.c */,
 			);
 			path = "5_流程控制";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
 				28EE5E042926F4E900D48864 /* 5_5_Switch.c in Sources */,
 				28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */,
+				286794A02928D01A007DB97E /* 5_7_break_and_continue.c in Sources */,
 				28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */,
 				28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */,
 				282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */,

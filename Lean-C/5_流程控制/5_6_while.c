@@ -1,17 +1,79 @@
 // While
 #include <stdio.h>
-int main(int argc, const char *argv[]) {
-   // int main_5_6(int argc, const char *argv[]) {
+#include <stdlib.h>
+//int main(int argc, const char *argv[]) {
+    int main_5_6(int argc, const char *argv[]) {
 
-//   printf("I love code");
-//   printf("I love code");
-//   printf("I love code");
-//   printf("I love code");
-    
-    int i = 0;
-    while (i < 4) {
+    {
         printf("I love code\n");
-        i++;
+        printf("I love code\n");
+        printf("I love code\n");
+        printf("I love code\n");
+    }
+    
+    // 场景1:循环次数确定
+    {
+        // 打印4遍
+        int i = 0;
+        while (i < 4) {
+            printf("I love code\n");
+            i++;
+        }
+    }
+    printf("\n");
+    
+    // 场景2:循环次数不确定，但是循环继续的条件时确定的。
+    {
+        // 产生1个随机数，它是4的倍数，
+        int num = -1;
+        while(num % 4 != 0) {
+            // 1 产生1个0到9的随机数
+            num = arc4random_uniform(10); // 0~9;
+            printf("generate a random %d\n",num);
+        }
+        printf("Find 了 4的倍数：%d\n",num);
+    }
+    printf("\n");
+    
+    // 场景3: 遍历指定范围的数
+    {
+        // 打印1到5的每个整数
+        int i = 1;
+        while (i <= 5) {
+            printf("print %d\n",i);
+            i++;
+        }
+    }
+    printf("\n");
+    
+    // 场景4: 找出指定范围当中，符合特定条件的数
+    {
+        // 打印出1～20之间被8整除的数
+        /**
+         8 被 8 整除
+         16 被 8 整除
+         */
+        int i = 1;
+        while (i <= 20) {
+            if(i % 8 == 0){
+                printf("%d 被 8 整除\n",i);
+            }
+            i++;
+        }
+    }
+    printf("\n");
+    
+    // 场景5: 求累加与平均值
+    {
+        // 1 到 10的累加与平均值
+        int i = 1;
+        int sum = 0;
+        while (i <= 10) {
+            sum +=i;
+            i++;
+        }
+        int average = sum/10;
+        printf("sum=%d,average=%d\n",sum,average);// sum=55,average=5
     }
    return 0;
 }
@@ -74,4 +136,30 @@ for
 
  7 写循环，务必确认
  必须知道继续循环或结束的条件。
+ 
+ 8 循环的使用场景：
+ 场景1:循环次数确定
+     使用技巧
+     1）先把循环的架子写出来。
+     2）老时有人忘记自增循环变量，所以写完循环的大括号第一件事，就是先写循环变量
+     int i = 0;
+     while (i < 4) {
+         i++;
+     }
+     
+ 场景2:循环次数不确定，但是循环继续的条件时确定的。
+     使用技巧
+     1）先把循环的架子写出来。因为确定是循环
+     2）再把循环体写出来。
+     int num = -1;
+     while(num % 4 != 0) {
+     }
+     3）在循环体中写上继续的条件。
+     这时发现循环条件要用到的变量声明在循环体中，那么将这个变量在外面就可以了。
+ 
+ 场景3: 遍历指定范围的数
+ 
+ 场景4: 找出指定范围当中，符合特定条件的数
+ 
+ 场景5: 求累加与平均值
 */
