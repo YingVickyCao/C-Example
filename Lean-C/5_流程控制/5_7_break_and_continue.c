@@ -1,8 +1,8 @@
 // break and continue
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
-//int main_5_7(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_5_7(int argc, const char *argv[]) {
     
     // break
     {
