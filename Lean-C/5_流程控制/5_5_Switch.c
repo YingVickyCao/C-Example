@@ -1,7 +1,8 @@
 // Switch
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_5_5(int argc, const char *argv[]) {
     // switch后面的（）可以是表达式
     {
         int num = 10;
