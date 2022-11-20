@@ -23,15 +23,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D45E2EB2-E522-4C62-BF13-692F2DA29B31"
-            shouldBeEnabled = "Yes"
+            uuid = "56F07414-C342-4851-843E-5DCB8B5BAF8B"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Lean-C/6_&#x51fd;&#x6570;/6_1_main.c"
+            filePath = "Lean-C/3_&#x53d8;&#x91cf;/3_5_&#x5c40;&#x90e8;&#x53d8;&#x91cf;_&#x5168;&#x5c40;&#x53d8;&#x91cf;.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
          </BreakpointContent>
