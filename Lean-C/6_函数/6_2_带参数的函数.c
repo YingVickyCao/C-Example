@@ -4,9 +4,10 @@
 int isEven(int num){
     return (num % 2 == 0) ? 1 : 0;
 }
-int main(int argc, const char *argv[]) {
-//int main_6_2(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_6_2(int argc, const char *argv[]) {
     printf("%d\n",isEven(10));
+    printf("%d\n",isEven(14.56f));
     return 0;
 }
 
@@ -26,4 +27,10 @@ int main(int argc, const char *argv[]) {
     在函数内部可以直接访问这个函数参数。
  （3）、形参：声明在函数名称后面的小括弧中的变量
        实参：在调用函数的时候，实际上为形参赋值的实际值
+ 
+ 3、函数参数可以实现的效果？
+    函数参数的作用：可以将调用者的数据，传递到函数的内部去使用。
+ 
+ 4、注意点
+    为形参传值的过程就是1个赋值的过程。如果实参的类型和形参的类型不一致，就会做自动类型转换。
  */
