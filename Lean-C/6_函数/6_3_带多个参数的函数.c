@@ -11,8 +11,8 @@ int sum1(int num1, int num2) {
     return num1 + num2;
 }
 
-int main(int argc, const char *argv[]) {
-//int main_6_3(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_6_3(int argc, const char *argv[]) {
     test_non_param_int(3);
 //    printf("%d\n", sum(3, 5));
     printf("%d\n", sum1(3, 5));

@@ -35,6 +35,8 @@
 		28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C458C3291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c */; };
 		28C5CC68292B18760084506D /* 6_2_带参数的函数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C5CC67292B18760084506D /* 6_2_带参数的函数.c */; };
 		28C5CC6A292B23B20084506D /* 6_3_带多个参数的函数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C5CC69292B23B10084506D /* 6_3_带多个参数的函数.c */; };
+		28C5CC6C292B65B70084506D /* 6_4_return.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C5CC6B292B65B70084506D /* 6_4_return.c */; };
+		28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C5CC6D292B71AD0084506D /* 6_5_函数的声明和定义.c */; };
 		28E4350529114E1600216C1A /* 1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4350429114E1600216C1A /* 1_main.c */; };
 		28E4351729116AD000216C1A /* 3_1_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351629116AD000216C1A /* 3_1_variable.c */; };
 		28E4351D29116C3C00216C1A /* 2_Comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351B29116B4A00216C1A /* 2_Comment.c */; };
@@ -101,6 +103,8 @@
 		28C458C3291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_4_6_逻辑运算符_逻辑表达式.c"; sourceTree = "<group>"; };
 		28C5CC67292B18760084506D /* 6_2_带参数的函数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6_2_带参数的函数.c"; sourceTree = "<group>"; };
 		28C5CC69292B23B10084506D /* 6_3_带多个参数的函数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6_3_带多个参数的函数.c"; sourceTree = "<group>"; };
+		28C5CC6B292B65B70084506D /* 6_4_return.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_4_return.c; sourceTree = "<group>"; };
+		28C5CC6D292B71AD0084506D /* 6_5_函数的声明和定义.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6_5_函数的声明和定义.c"; sourceTree = "<group>"; };
 		28E4350229114E1600216C1A /* Example2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example2; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4350429114E1600216C1A /* 1_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_main.c; sourceTree = "<group>"; };
 		28E4350D29114EC100216C1A /* Example-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Example-3"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +174,8 @@
 				28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */,
 				28C5CC67292B18760084506D /* 6_2_带参数的函数.c */,
 				28C5CC69292B23B10084506D /* 6_3_带多个参数的函数.c */,
+				28C5CC6B292B65B70084506D /* 6_4_return.c */,
+				28C5CC6D292B71AD0084506D /* 6_5_函数的声明和定义.c */,
 			);
 			path = "6_函数";
 			sourceTree = "<group>";
@@ -352,6 +358,7 @@
 				28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */,
 				28E4351729116AD000216C1A /* 3_1_variable.c in Sources */,
 				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
+				28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */,
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,
@@ -375,6 +382,7 @@
 				28C458B9291F939A009B4F76 /* 4_4_2_赋值运算符.c in Sources */,
 				28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */,
 				28C5CC68292B18760084506D /* 6_2_带参数的函数.c in Sources */,
+				28C5CC6C292B65B70084506D /* 6_4_return.c in Sources */,
 				282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
