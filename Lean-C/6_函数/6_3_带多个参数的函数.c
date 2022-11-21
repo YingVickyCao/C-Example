@@ -5,14 +5,17 @@
 void test_non_param_int(num) {
 }
 
-int sum2(int num1, int num2) {
+// ERROR： duplicate symbol for architecture x86_64。因为有全局变量sum，所以加法函数不能再命名为sum，否则报错
+//int sum(int num1, int num2) {
+int sum1(int num1, int num2) {
     return num1 + num2;
 }
 
 int main(int argc, const char *argv[]) {
 //int main_6_3(int argc, const char *argv[]) {
     test_non_param_int(3);
-    printf("%d\n", sum2(3, 5));
+//    printf("%d\n", sum(3, 5));
+    printf("%d\n", sum1(3, 5));
     return 0;
 }
 
