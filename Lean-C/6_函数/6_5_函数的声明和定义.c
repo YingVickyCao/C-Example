@@ -14,8 +14,8 @@ void test_6_5_v2(){
     
 }
 
-int main(int argc, const char *argv[]) {
-//int main_6_5(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_6_5(int argc, const char *argv[]) {
     // ERROR : Compile error - Implicit declaration of function 'test_6_5_v1' is invalid in C99
     test_6_5_v1();
     test_6_5_v2();
