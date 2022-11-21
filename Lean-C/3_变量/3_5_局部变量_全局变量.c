@@ -14,8 +14,8 @@ void test(){
     printf("age=%d\n",age); // 2
     printf("sum=%d\n",sum); // 1
 }
-int main(int argc, const char *argv[]) {
-//int main_3_5(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_3_5(int argc, const char *argv[]) {
     test();
     printf("sum=%d\n",sum); // 0
     
