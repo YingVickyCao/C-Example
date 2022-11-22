@@ -11,6 +11,7 @@
 		282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */; };
 		282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599D2925AE6A00B91ECD /* 5_1_IF.c */; };
 		282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */; };
+		28300BB2292D02440071A423 /* 7_1_文件包含指令.c in Sources */ = {isa = PBXBuildFile; fileRef = 28300BB1292D02440071A423 /* 7_1_文件包含指令.c */; };
 		2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2832EEA2291AA0F90093D80C /* 4_3_scanf.c */; };
 		2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */ = {isa = PBXBuildFile; fileRef = 2846105D292A67A900D07E42 /* 3_5_局部变量_全局变量.c */; };
 		2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */ = {isa = PBXBuildFile; fileRef = 2864D5DA2928EE27001BA886 /* 5_10_嵌套循环.c */; };
@@ -78,6 +79,8 @@
 		282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_5_运算符的优先级和结核性.c"; sourceTree = "<group>"; };
 		282F599D2925AE6A00B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
 		282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_2_变量的作用域.c"; sourceTree = "<group>"; };
+		28300BB1292D02440071A423 /* 7_1_文件包含指令.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_1_文件包含指令.c"; sourceTree = "<group>"; };
+		28300BB3292D0A7F0071A423 /* print_usa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = print_usa.txt; sourceTree = "<group>"; };
 		2832EEA2291AA0F90093D80C /* 4_3_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3_scanf.c; sourceTree = "<group>"; };
 		2846105D292A67A900D07E42 /* 3_5_局部变量_全局变量.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_5_局部变量_全局变量.c"; sourceTree = "<group>"; };
 		2864D5DA2928EE27001BA886 /* 5_10_嵌套循环.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5_10_嵌套循环.c"; sourceTree = "<group>"; };
@@ -168,6 +171,15 @@
 			path = "3_变量";
 			sourceTree = "<group>";
 		};
+		28300BB0292D02250071A423 /* 7_预处理 */ = {
+			isa = PBXGroup;
+			children = (
+				28300BB3292D0A7F0071A423 /* print_usa.txt */,
+				28300BB1292D02440071A423 /* 7_1_文件包含指令.c */,
+			);
+			name = "7_预处理";
+			sourceTree = "<group>";
+		};
 		28A2A1FC2929DDFB00AE0F5C /* 6_函数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +215,7 @@
 		28B2808C290FFE71000C1909 /* Lean-C */ = {
 			isa = PBXGroup;
 			children = (
+				28300BB0292D02250071A423 /* 7_预处理 */,
 				282F59A12925B06400B91ECD /* 3_变量 */,
 				28C458C1291FAB53009B4F76 /* 4_表达式 */,
 				282F59982925A1F200B91ECD /* 5_流程控制 */,
@@ -353,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */,
+				28300BB2292D02440071A423 /* 7_1_文件包含指令.c in Sources */,
 				28C5CC6A292B23B20084506D /* 6_3_带多个参数的函数.c in Sources */,
 				28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */,
 				28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */,

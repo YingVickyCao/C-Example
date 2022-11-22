@@ -1,0 +1,4 @@
+void print_usa();
+void print_usa(){
+    printf("Are you from USA\n");
+}
