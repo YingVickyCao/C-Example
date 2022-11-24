@@ -1,15 +1,10 @@
-//
-//  进制.c
-//  Lean-C
-//
-//  Created by hades on 2022/11/24.
-//
-
+// 进制
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_8_2(int argc, const char *argv[]) {
     int num = 10;
-    if(num & 1 == 0){
+    if((num & 1) == 0){
         printf("偶数\n");
     }else{
         printf("不是偶数\n");
