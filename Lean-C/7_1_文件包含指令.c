@@ -10,7 +10,8 @@
 
 // 相对路径
 #include "print_usa.txt"
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_7_1(int argc, const char *argv[]) {
     /**
      I love math
      I love English
