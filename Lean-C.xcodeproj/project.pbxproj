@@ -21,7 +21,7 @@
 		286794A22928D8BC007DB97E /* 5_8_do_while.c in Sources */ = {isa = PBXBuildFile; fileRef = 286794A12928D8BC007DB97E /* 5_8_do_while.c */; };
 		28723D5E292F979100BFEB87 /* 7_2_多文件开发.c in Sources */ = {isa = PBXBuildFile; fileRef = 28723D5D292F979100BFEB87 /* 7_2_多文件开发.c */; };
 		28723D62292F9C1B00BFEB87 /* mymath.c in Sources */ = {isa = PBXBuildFile; fileRef = 28723D61292F9C1B00BFEB87 /* mymath.c */; };
-		28723D65292F9E5E00BFEB87 /* 进制.c in Sources */ = {isa = PBXBuildFile; fileRef = 28723D64292F9E5E00BFEB87 /* 进制.c */; };
+		28723D65292F9E5E00BFEB87 /* 8_1_进制.c in Sources */ = {isa = PBXBuildFile; fileRef = 28723D64292F9E5E00BFEB87 /* 8_1_进制.c */; };
 		28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
@@ -45,7 +45,7 @@
 		28E4351729116AD000216C1A /* 3_1_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351629116AD000216C1A /* 3_1_variable.c */; };
 		28E4351D29116C3C00216C1A /* 2_Comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351B29116B4A00216C1A /* 2_Comment.c */; };
 		28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EE5E032926F4E900D48864 /* 5_5_switch.c */; };
-		28F594D0292FA6B6006790EB /* 进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 进制之间的转换.c */; };
+		28F594D0292FA6B6006790EB /* 8_2_进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,7 +95,7 @@
 		28723D5D292F979100BFEB87 /* 7_2_多文件开发.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_2_多文件开发.c"; sourceTree = "<group>"; };
 		28723D61292F9C1B00BFEB87 /* mymath.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mymath.c; sourceTree = "<group>"; };
 		28723D63292F9C2A00BFEB87 /* mymath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mymath.h; sourceTree = "<group>"; };
-		28723D64292F9E5E00BFEB87 /* 进制.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "进制.c"; sourceTree = "<group>"; };
+		28723D64292F9E5E00BFEB87 /* 8_1_进制.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_1_进制.c"; sourceTree = "<group>"; };
 		28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_1_main.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		28E4351629116AD000216C1A /* 3_1_variable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3_1_variable.c; sourceTree = "<group>"; };
 		28E4351B29116B4A00216C1A /* 2_Comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_Comment.c; sourceTree = "<group>"; };
 		28EE5E032926F4E900D48864 /* 5_5_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_5_switch.c; sourceTree = "<group>"; };
-		28F594CF292FA6B6006790EB /* 进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "进制之间的转换.c"; sourceTree = "<group>"; };
+		28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_2_进制之间的转换.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +188,6 @@
 				28723D5D292F979100BFEB87 /* 7_2_多文件开发.c */,
 				28723D61292F9C1B00BFEB87 /* mymath.c */,
 				28723D63292F9C2A00BFEB87 /* mymath.h */,
-				28723D64292F9E5E00BFEB87 /* 进制.c */,
-				28F594CF292FA6B6006790EB /* 进制之间的转换.c */,
 			);
 			name = "7_预处理";
 			sourceTree = "<group>";
@@ -197,6 +195,8 @@
 		28723D66292F9F2100BFEB87 /* 8_进制 */ = {
 			isa = PBXGroup;
 			children = (
+				28723D64292F9E5E00BFEB87 /* 8_1_进制.c */,
+				28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */,
 			);
 			path = "8_进制";
 			sourceTree = "<group>";
@@ -393,7 +393,7 @@
 				28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */,
 				28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */,
 				28E4351729116AD000216C1A /* 3_1_variable.c in Sources */,
-				28723D65292F9E5E00BFEB87 /* 进制.c in Sources */,
+				28723D65292F9E5E00BFEB87 /* 8_1_进制.c in Sources */,
 				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
 				28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */,
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
@@ -401,7 +401,7 @@
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,
 				2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */,
-				28F594D0292FA6B6006790EB /* 进制之间的转换.c in Sources */,
+				28F594D0292FA6B6006790EB /* 8_2_进制之间的转换.c in Sources */,
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
 				28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */,
 				2867949E29287ADC007DB97E /* 5_6_while.c in Sources */,

@@ -1,6 +1,7 @@
 // 进制之间的转换
 #include <stdio.h>
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_8_2(int argc, const char *argv[]) {
     // Examle 1
     // 二进制
     printf("%d\n",0b10);    // 2
@@ -29,6 +30,9 @@ int main(int argc, const char *argv[]) {
     
     // Example 8
     printf("%0x\n",0b001011100110011); // 1733
+    
+    // Example 9
+    printf("%0x\n",0b0100110111101010); // 4dea
     return 0;
 }
 
@@ -114,5 +118,13 @@ int main(int argc, const char *argv[]) {
     (补00) 001        0111        0011       0011
     1                    7                 3            3
     => 1733
- 
+
+ 9 十六进制转换为二进制
+     一拆四
+     将这个十六进制的每个数码拆为1个四位的二进制，把这些二进制连起来。
+    
+    4dea
+    => 4            d                   e                   a
+    0100           13->1101     14=>1110      10=>1010
+    =>0100110111101010
  */
