@@ -44,6 +44,7 @@
 		28E4350529114E1600216C1A /* 1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4350429114E1600216C1A /* 1_main.c */; };
 		28E4351729116AD000216C1A /* 3_1_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351629116AD000216C1A /* 3_1_variable.c */; };
 		28E4351D29116C3C00216C1A /* 2_Comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351B29116B4A00216C1A /* 2_Comment.c */; };
+		28E9F96D2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */; };
 		28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EE5E032926F4E900D48864 /* 5_5_switch.c */; };
 		28F594D0292FA6B6006790EB /* 8_2_进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */; };
 /* End PBXBuildFile section */
@@ -121,6 +122,7 @@
 		28E4350D29114EC100216C1A /* Example-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Example-3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4351629116AD000216C1A /* 3_1_variable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3_1_variable.c; sourceTree = "<group>"; };
 		28E4351B29116B4A00216C1A /* 2_Comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_Comment.c; sourceTree = "<group>"; };
+		28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "内存的构造和变量所占用的字节数.c"; sourceTree = "<group>"; };
 		28EE5E032926F4E900D48864 /* 5_5_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_5_switch.c; sourceTree = "<group>"; };
 		28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_2_进制之间的转换.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,6 +238,7 @@
 		28B2808C290FFE71000C1909 /* Lean-C */ = {
 			isa = PBXGroup;
 			children = (
+				28E9F96B2931C02000C0C29B /* temp */,
 				28723D66292F9F2100BFEB87 /* 8_进制 */,
 				28300BB0292D02250071A423 /* 7_预处理 */,
 				282F59A12925B06400B91ECD /* 3_变量 */,
@@ -286,6 +289,14 @@
 				28E4351B29116B4A00216C1A /* 2_Comment.c */,
 			);
 			path = "Example-3";
+			sourceTree = "<group>";
+		};
+		28E9F96B2931C02000C0C29B /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */,
+			);
+			path = temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +419,7 @@
 				28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */,
 				28C458B5291F5693009B4F76 /* 3_3_交换两个变量的值.c in Sources */,
 				286794A22928D8BC007DB97E /* 5_8_do_while.c in Sources */,
+				28E9F96D2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
 				28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */,
