@@ -45,6 +45,7 @@
 		28E4351729116AD000216C1A /* 3_1_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351629116AD000216C1A /* 3_1_variable.c */; };
 		28E4351D29116C3C00216C1A /* 2_Comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E4351B29116B4A00216C1A /* 2_Comment.c */; };
 		28E9F96D2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */; };
+		28E9F9702933160700C0C29B /* 原码_反码_补码.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E9F96F2933160700C0C29B /* 原码_反码_补码.c */; };
 		28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EE5E032926F4E900D48864 /* 5_5_switch.c */; };
 		28F594D0292FA6B6006790EB /* 8_2_进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		28E4351629116AD000216C1A /* 3_1_variable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3_1_variable.c; sourceTree = "<group>"; };
 		28E4351B29116B4A00216C1A /* 2_Comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_Comment.c; sourceTree = "<group>"; };
 		28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "内存的构造和变量所占用的字节数.c"; sourceTree = "<group>"; };
+		28E9F96F2933160700C0C29B /* 原码_反码_补码.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "原码_反码_补码.c"; sourceTree = "<group>"; };
 		28EE5E032926F4E900D48864 /* 5_5_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_5_switch.c; sourceTree = "<group>"; };
 		28F594CF292FA6B6006790EB /* 8_2_进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_2_进制之间的转换.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				28E9F96C2931C04500C0C29B /* 内存的构造和变量所占用的字节数.c */,
+				28E9F96F2933160700C0C29B /* 原码_反码_补码.c */,
 			);
 			path = temp;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				28C5CC68292B18760084506D /* 6_2_带参数的函数.c in Sources */,
 				28C5CC6C292B65B70084506D /* 6_4_return.c in Sources */,
 				28723D62292F9C1B00BFEB87 /* mymath.c in Sources */,
+				28E9F9702933160700C0C29B /* 原码_反码_补码.c in Sources */,
 				282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
