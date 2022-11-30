@@ -1,7 +1,7 @@
 // 进制之间的转换
 #include <stdio.h>
 //int main(int argc, const char *argv[]) {
-int main_8_2(int argc, const char *argv[]) {
+int main_8_3(int argc, const char *argv[]) {
     // Examle 1
     // 二进制
     printf("%d\n",0b10);    // 2

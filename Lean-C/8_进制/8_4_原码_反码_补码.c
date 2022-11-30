@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main(int argc, const char *argv[]) {
-//int main_v2(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_8_4(int argc, const char *argv[]) {
 //    printf("%d\n",INT_MIN);
 //    printf("%d\n",INT_MAX);
     

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_v1(int argc, const char *argv[]) {
+int main_8_1(int argc, const char *argv[]) {
     
     printf("%ld\n",sizeof(char));    // 1
     printf("%ld\n",sizeof('a'));    // 4，因为'a'的ASCII码是97
@@ -82,5 +82,5 @@ int main_v1(int argc, const char *argv[]) {
      sizeof 数据类型
  
  5、变量在内存中占据的字节数，会因为系统版本、编译器的不同而不同。
- 使用sizeof查看
+    使用sizeof查看
  */

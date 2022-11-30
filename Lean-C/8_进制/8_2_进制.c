@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_8_1(int argc, const char *argv[]) {
+int main_8_2(int argc, const char *argv[]) {
     int num = 10;
     if((num & 1) == 0){
         printf("偶数\n");
