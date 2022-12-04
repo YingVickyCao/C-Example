@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_8_1(int argc, const char *argv[]) {
+int main_3_6(int argc, const char *argv[]) {
     
     printf("%ld\n",sizeof(char));    // 1
     printf("%ld\n",sizeof('a'));    // 4，因为'a'的ASCII码是97
