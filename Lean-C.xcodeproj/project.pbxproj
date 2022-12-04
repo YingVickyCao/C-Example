@@ -13,6 +13,7 @@
 		282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599F2925AFE600B91ECD /* 3_2_变量的作用域.c */; };
 		28300BB2292D02440071A423 /* 7_1_文件包含指令.c in Sources */ = {isa = PBXBuildFile; fileRef = 28300BB1292D02440071A423 /* 7_1_文件包含指令.c */; };
 		2832EEA3291AA0F90093D80C /* 4_3_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2832EEA2291AA0F90093D80C /* 4_3_scanf.c */; };
+		283A16F3293B4B8300FBCE4A /* 8_6_深入变量的细节.c in Sources */ = {isa = PBXBuildFile; fileRef = 283A16F2293B4B8300FBCE4A /* 8_6_深入变量的细节.c */; };
 		2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */ = {isa = PBXBuildFile; fileRef = 2846105D292A67A900D07E42 /* 3_5_局部变量_全局变量.c */; };
 		285491152938081B00B40525 /* 8_5_位运算.c in Sources */ = {isa = PBXBuildFile; fileRef = 285491142938081B00B40525 /* 8_5_位运算.c */; };
 		2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */ = {isa = PBXBuildFile; fileRef = 2864D5DA2928EE27001BA886 /* 5_10_嵌套循环.c */; };
@@ -89,6 +90,7 @@
 		28300BB1292D02440071A423 /* 7_1_文件包含指令.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7_1_文件包含指令.c"; sourceTree = "<group>"; };
 		28300BB3292D0A7F0071A423 /* print_usa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = print_usa.txt; sourceTree = "<group>"; };
 		2832EEA2291AA0F90093D80C /* 4_3_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_3_scanf.c; sourceTree = "<group>"; };
+		283A16F2293B4B8300FBCE4A /* 8_6_深入变量的细节.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_6_深入变量的细节.c"; sourceTree = "<group>"; };
 		2846105D292A67A900D07E42 /* 3_5_局部变量_全局变量.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3_5_局部变量_全局变量.c"; sourceTree = "<group>"; };
 		285491142938081B00B40525 /* 8_5_位运算.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_5_位运算.c"; sourceTree = "<group>"; };
 		2864D5DA2928EE27001BA886 /* 5_10_嵌套循环.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5_10_嵌套循环.c"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				28F594CF292FA6B6006790EB /* 8_3_进制之间的转换.c */,
 				28E9F96F2933160700C0C29B /* 8_4_原码_反码_补码.c */,
 				285491142938081B00B40525 /* 8_5_位运算.c */,
+				283A16F2293B4B8300FBCE4A /* 8_6_深入变量的细节.c */,
 			);
 			path = "8_进制";
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */,
 				285491152938081B00B40525 /* 8_5_位运算.c in Sources */,
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
+				283A16F3293B4B8300FBCE4A /* 8_6_深入变量的细节.c in Sources */,
 				28723D5E292F979100BFEB87 /* 7_2_多文件开发.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,

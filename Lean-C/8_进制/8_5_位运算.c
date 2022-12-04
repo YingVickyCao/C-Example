@@ -1,6 +1,7 @@
 // 位运算
 #include <stdio.h>
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_8_5(int argc, const char *argv[]) {
     // 按位与 &
     printf("%d\n",3&2); // 2
     printf("%d\n",-3&4); // 4
