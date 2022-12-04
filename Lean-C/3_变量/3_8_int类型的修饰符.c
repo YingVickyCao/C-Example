@@ -4,30 +4,30 @@
 //int main(int argc, const char *argv[]) {
 int main_3_8(int argc, const char *argv[]) {
     
-//    {
-//        // 1 short int
-//        short int num = 10;
-//        printf("%hd\n",num); // 10
-//        // Format specifies type 'int' but the argument has type 'unsigned long'
-////        printf("%d\n",sizeof(num)); // 2
-//        printf("%lu\n",sizeof(num)); // 2
-//
-//        // 简写
-//        short num2 = 5;
-//        printf("%hd\n",num2); // 5
-//    }
+    // 1 short int
+    {
+        short int num = 10;
+        printf("%hd\n",num); // 10
+        // Format specifies type 'int' but the argument has type 'unsigned long'
+//        printf("%d\n",sizeof(num)); // 2
+        printf("%lu\n",sizeof(num)); // 2
+
+        // 简写
+        short num2 = 5;
+        printf("%hd\n",num2); // 5
+    }
     
     // 2 long int
-//    {
-//        long int num = 20;
-//        printf("%lu\n",sizeof(num)); // 8
-//        printf("%ld\n",num); // 20
-//
-//        // 简写
-//        long num2 = 3;
-//    }
+    {
+        long int num = 20;
+        printf("%lu\n",sizeof(num)); // 8
+        printf("%ld\n",num); // 20
+
+        // 简写
+        long num2 = 3;
+    }
     
-    // long long
+    // 3 long long
     {
         long long int num = 20;
         printf("%lu\n",sizeof(num)); // 8
@@ -38,7 +38,7 @@ int main_3_8(int argc, const char *argv[]) {
         long long num2 = 3;
     }
     
-    // unsigned
+    // 4 unsigned
     {
         int num = 2300000000;
         unsigned int num2 = 2300000000;
@@ -49,7 +49,7 @@ int main_3_8(int argc, const char *argv[]) {
         printf("%hu\n",num3); // 65535
     }
     
-    // signed
+    // 5 signed
     {
         signed int num = 10;
         signed int num2 = -1;
