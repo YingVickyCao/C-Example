@@ -26,6 +26,8 @@
 		28723D65292F9E5E00BFEB87 /* 8_2_进制.c in Sources */ = {isa = PBXBuildFile; fileRef = 28723D64292F9E5E00BFEB87 /* 8_2_进制.c */; };
 		28856349293C56E3006D362D /* 8_8_int类型的修饰符.c in Sources */ = {isa = PBXBuildFile; fileRef = 28856348293C56E3006D362D /* 8_8_int类型的修饰符.c */; };
 		2885634B293C7280006D362D /* 8_7_char变量的深入.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634A293C7280006D362D /* 8_7_char变量的深入.c */; };
+		2885634D293C7A97006D362D /* 8_9_格式控制符的总结.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634C293C7A97006D362D /* 8_9_格式控制符的总结.c */; };
+		2885634F293C83F7006D362D /* 8_10_垃圾值怎么来的.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634E293C83F7006D362D /* 8_10_垃圾值怎么来的.c */; };
 		28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
@@ -106,6 +108,8 @@
 		28723D64292F9E5E00BFEB87 /* 8_2_进制.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_2_进制.c"; sourceTree = "<group>"; };
 		28856348293C56E3006D362D /* 8_8_int类型的修饰符.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_8_int类型的修饰符.c"; sourceTree = "<group>"; };
 		2885634A293C7280006D362D /* 8_7_char变量的深入.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_7_char变量的深入.c"; sourceTree = "<group>"; };
+		2885634C293C7A97006D362D /* 8_9_格式控制符的总结.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_9_格式控制符的总结.c"; sourceTree = "<group>"; };
+		2885634E293C83F7006D362D /* 8_10_垃圾值怎么来的.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_10_垃圾值怎么来的.c"; sourceTree = "<group>"; };
 		28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_1_main.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				285491142938081B00B40525 /* 8_5_位运算.c */,
 				283A16F2293B4B8300FBCE4A /* 8_6_深入变量的细节.c */,
 				2885634A293C7280006D362D /* 8_7_char变量的深入.c */,
+				2885634C293C7A97006D362D /* 8_9_格式控制符的总结.c */,
+				2885634E293C83F7006D362D /* 8_10_垃圾值怎么来的.c */,
 			);
 			path = "8_进制";
 			sourceTree = "<group>";
@@ -423,6 +429,7 @@
 				28723D65292F9E5E00BFEB87 /* 8_2_进制.c in Sources */,
 				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
 				28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */,
+				2885634D293C7A97006D362D /* 8_9_格式控制符的总结.c in Sources */,
 				285491152938081B00B40525 /* 8_5_位运算.c in Sources */,
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
 				283A16F3293B4B8300FBCE4A /* 8_6_深入变量的细节.c in Sources */,
@@ -439,6 +446,7 @@
 				286794A22928D8BC007DB97E /* 5_8_do_while.c in Sources */,
 				28E9F96D2931C04500C0C29B /* 8_1_变量存储的简单细节.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
+				2885634F293C83F7006D362D /* 8_10_垃圾值怎么来的.c in Sources */,
 				2885634B293C7280006D362D /* 8_7_char变量的深入.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
 				28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */,

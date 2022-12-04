@@ -10,26 +10,24 @@
 //int main(int argc, const char *argv[]) {
 int main_8_6(int argc, const char *argv[]) {
     //  3、变量的地址
-//    {
-//        int num1 = 10;
-//        int num2 = 10;
-//        char ch = 'a';
-//
-//        &num1;
-//        printf("%p\n",&num1); // 0x7ff7bfeff43c
-//        printf("%p\n",&num2); // 0x7ff7bfeff438
-//        printf("%p\n",&ch); // 0x7ff7bfeff437
-//        // 37 => ch
-//        // 38 => num1
-//        // 39
-//        // 3a
-//        // 3b
-//        // 3c ==> num2
-//
-//        // 谁的地址最高？num1
-//        // 谁的地址最低？ ch
-//    }
     {
+        int num1 = 10;
+        int num2 = 10;
+        char ch = 'a';
+
+        &num1;
+        printf("%p\n",&num1); // 0x7ff7bfeff43c
+        printf("%p\n",&num2); // 0x7ff7bfeff438
+        printf("%p\n",&ch); // 0x7ff7bfeff437
+        // 37 => ch
+        // 38 => num1
+        // 39
+        // 3a
+        // 3b
+        // 3c ==> num2
+    }
+    {
+        // 见Excel
         int num1 = 10;
         double d1 = 12.12;
         char ch = 'a';
@@ -67,7 +65,7 @@ int main_8_6(int argc, const char *argv[]) {
  int num = 10；
  1）、在为变量分配字节空间的时候，是从高地址到低地址分配的。分配连续的指定字节数的空间。
  
- int num = 10；
+ int num = 10；见Excel
  int age = 5；
  
  2）、存储在变量中的数据是以数据的二进制补码形式存储进去的。
