@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_3_7(int argc, const char *argv[]) {
+int main_8_6(int argc, const char *argv[]) {
     //  3、变量的地址
 //    {
 //        int num1 = 10;

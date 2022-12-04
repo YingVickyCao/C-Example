@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_3_8(int argc, const char *argv[]) {
+int main_3_6(int argc, const char *argv[]) {
     
     // 1 short int
     {

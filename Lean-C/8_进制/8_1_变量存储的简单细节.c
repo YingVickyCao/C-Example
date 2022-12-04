@@ -1,8 +1,8 @@
-// 内存的构造和变量所占用的字节数
+// 变量存储的简单细节 - 内存的构造和变量所占用的字节数
 #include <stdio.h>
 
 //int main(int argc, const char *argv[]) {
-int main_3_6(int argc, const char *argv[]) {
+int main_8_1(int argc, const char *argv[]) {
     
     printf("%ld\n",sizeof(char));    // 1
     printf("%ld\n",sizeof('a'));    // 4，因为'a'的ASCII码是97
