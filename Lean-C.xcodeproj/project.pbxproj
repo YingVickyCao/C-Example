@@ -33,6 +33,7 @@
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
 		28A8B0FD2943714100F6CD7B /* 9_2_数组在内存中的存储.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */; };
+		28A8B0FF29437BF400F6CD7B /* 9_3_数组的应用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */; };
 		28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */; };
 		28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */; };
 		28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */; };
@@ -117,6 +118,7 @@
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
 		28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_2_数组在内存中的存储.c"; sourceTree = "<group>"; };
+		28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_3_数组的应用.c"; sourceTree = "<group>"; };
 		28B2808A290FFE71000C1909 /* Lean-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lean-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_2_IF_ELSE.c; sourceTree = "<group>"; };
 		28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_3_IF_ELSE_IF.c; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			children = (
 				28856352293C8898006D362D /* 9_1_数组的概述.c */,
 				28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */,
+				28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */,
 			);
 			path = "9_数组";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */,
 				28C458B5291F5693009B4F76 /* 3_3_交换两个变量的值.c in Sources */,
 				286794A22928D8BC007DB97E /* 5_8_do_while.c in Sources */,
+				28A8B0FF29437BF400F6CD7B /* 9_3_数组的应用.c in Sources */,
 				28E9F96D2931C04500C0C29B /* 8_1_变量存储的简单细节.c in Sources */,
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
 				2885634F293C83F7006D362D /* 8_10_垃圾值怎么来的.c in Sources */,
