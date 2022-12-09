@@ -28,6 +28,7 @@
 		2885634B293C7280006D362D /* 8_7_char变量的深入.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634A293C7280006D362D /* 8_7_char变量的深入.c */; };
 		2885634D293C7A97006D362D /* 8_9_格式控制符的总结.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634C293C7A97006D362D /* 8_9_格式控制符的总结.c */; };
 		2885634F293C83F7006D362D /* 8_10_垃圾值怎么来的.c in Sources */ = {isa = PBXBuildFile; fileRef = 2885634E293C83F7006D362D /* 8_10_垃圾值怎么来的.c */; };
+		28856353293C8898006D362D /* 9_1_数组的概述.c in Sources */ = {isa = PBXBuildFile; fileRef = 28856352293C8898006D362D /* 9_1_数组的概述.c */; };
 		28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */; };
 		28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */; };
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
@@ -110,6 +111,7 @@
 		2885634A293C7280006D362D /* 8_7_char变量的深入.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_7_char变量的深入.c"; sourceTree = "<group>"; };
 		2885634C293C7A97006D362D /* 8_9_格式控制符的总结.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_9_格式控制符的总结.c"; sourceTree = "<group>"; };
 		2885634E293C83F7006D362D /* 8_10_垃圾值怎么来的.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_10_垃圾值怎么来的.c"; sourceTree = "<group>"; };
+		28856352293C8898006D362D /* 9_1_数组的概述.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_1_数组的概述.c"; sourceTree = "<group>"; };
 		28A2A1FD2929DE3C00AE0F5C /* 6_1_main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_1_main.c; sourceTree = "<group>"; };
 		28A7ABF7291BE04100670DF3 /* 4_1_数据转换类型.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_1_数据转换类型.c"; sourceTree = "<group>"; };
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
@@ -225,6 +227,14 @@
 			path = "8_进制";
 			sourceTree = "<group>";
 		};
+		28856350293C8863006D362D /* 9_数组 */ = {
+			isa = PBXGroup;
+			children = (
+				28856352293C8898006D362D /* 9_1_数组的概述.c */,
+			);
+			path = "9_数组";
+			sourceTree = "<group>";
+		};
 		28A2A1FC2929DDFB00AE0F5C /* 6_函数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +270,7 @@
 		28B2808C290FFE71000C1909 /* Lean-C */ = {
 			isa = PBXGroup;
 			children = (
+				28856350293C8863006D362D /* 9_数组 */,
 				28E9F96B2931C02000C0C29B /* temp */,
 				28723D66292F9F2100BFEB87 /* 8_进制 */,
 				28300BB0292D02250071A423 /* 7_预处理 */,
@@ -441,6 +452,7 @@
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
 				28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */,
 				2867949E29287ADC007DB97E /* 5_6_while.c in Sources */,
+				28856353293C8898006D362D /* 9_1_数组的概述.c in Sources */,
 				28C458B7291F7FD5009B4F76 /* 4_4_1_算术运算符_算术表达式.c in Sources */,
 				28C458B5291F5693009B4F76 /* 3_3_交换两个变量的值.c in Sources */,
 				286794A22928D8BC007DB97E /* 5_8_do_while.c in Sources */,

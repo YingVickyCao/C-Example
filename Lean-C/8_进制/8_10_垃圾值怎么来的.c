@@ -1,8 +1,8 @@
 // 垃圾值怎么来的
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
-//int main_8_10(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_8_10(int argc, const char *argv[]) {
     
     {
         }
