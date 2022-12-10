@@ -7,31 +7,42 @@ void testArray_9_4_wrong(int nums[3]);
 void testArray_9_4_ok(int nums[], int length);
 void testSetArray_9_4(int nums[], int length);
 
-int main(int argc, const char *argv[]) {
-    //int main_9_4(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_9_4(int argc, const char *argv[]) {
     
-    // // 值传递
-//    {
-//        int num = 10;
-//        test_9_4(10);
-//        printf("%d\n",num);
-//
-//        int arr[]= {10,20,305,4,5};
-//        test_9_4(arr[0]);
-//        printf("%d\n",arr[0]);
-//    }
-    // // 数组作为函数的参数
-//    {
-//        int arr[]= {10,20,305,4,5};
-//        testArray_9_4_wrong(arr);
-//    }
-    // // 数组作为函数的参数
-//    {
-//        int arr[]= {10,20,305,4,5};
-//        int length = sizeof(arr)/sizeof(int);
-//        testArray_9_4_ok(arr,length);
-//    }
-    // // 数组作为函数的参数
+     // 值传递
+    {
+        int num = 10;
+        test_9_4(10);
+        printf("%d\n",num);
+
+        int arr[]= {10,20,305,4,5};
+        test_9_4(arr[0]);
+        printf("%d\n",arr[0]);
+    }
+     // 数组作为函数的参数
+    {
+        int arr[]= {10,20,305,4,5};
+        /**
+         nums[0]=10
+         nums[1]=20
+         */
+        testArray_9_4_wrong(arr);
+    }
+     // 数组作为函数的参数
+    {
+        int arr[]= {10,20,305,4,5};
+        int length = sizeof(arr)/sizeof(int);
+        /**
+         nums[0]=10
+         nums[1]=20
+         nums[2]=305
+         nums[3]=4
+         nums[4]=5
+         */
+        testArray_9_4_ok(arr,length);
+    }
+     // 数组作为函数的参数，可以修改了实参数组的元素。
     {
         int arr[]= {10,20,305,4,5};
         int length = sizeof(arr)/sizeof(int);
@@ -56,10 +67,6 @@ void test_9_4(int num){
     num = 100;
 }
 
-/**
- nums[0]=10
- nums[1]=20
- */
 // 数组作为函数的参数 : wrong
 void testArray_9_4_wrong(int nums[3]){
     // Warning : Sizeof on array function parameter will return size of 'int *' instead of 'int[3]'
@@ -70,13 +77,6 @@ void testArray_9_4_wrong(int nums[3]){
     }
 }
 
-/**
- nums[0]=10
- nums[1]=20
- nums[2]=305
- nums[3]=4
- nums[4]=5
- */
 // 数组作为函数的参数 : ok
 void testArray_9_4_ok(int nums[], int length){
     for (int i = 0;i<length; i++) {
@@ -144,4 +144,5 @@ void testSetArray_9_4(int nums[], int length){
  6、重要结论：
     1）、当数组作为函数的参数时，会丢失数组的长度。 所以，还需要1个参数，让调用者将传入的数组长度。
     2）、当数组作为函数的参数时，在函数内部去修改这个函数数组的元素，实际上修改的是实参数组的元素。
+    3）、强调：只有数组作为函数的参数时，通过sizeof才  算不出 长度。
  */
