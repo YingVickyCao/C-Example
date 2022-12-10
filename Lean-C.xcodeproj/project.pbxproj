@@ -34,6 +34,7 @@
 		28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */; };
 		28A8B0FD2943714100F6CD7B /* 9_2_数组在内存中的存储.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */; };
 		28A8B0FF29437BF400F6CD7B /* 9_3_数组的应用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */; };
+		28AB18F529447B6900E0089F /* 9_4_数组作为函数的参数.c in Sources */ = {isa = PBXBuildFile; fileRef = 28AB18F429447B6900E0089F /* 9_4_数组作为函数的参数.c */; };
 		28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */; };
 		28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */; };
 		28B8CE6E2926716D00C5BA41 /* 5_4_三元表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B8CE6D2926716D00C5BA41 /* 5_4_三元表达式.c */; };
@@ -119,6 +120,7 @@
 		28A7ABF9291BE0F800670DF3 /* 4_2_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_2_printf.c; sourceTree = "<group>"; };
 		28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_2_数组在内存中的存储.c"; sourceTree = "<group>"; };
 		28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_3_数组的应用.c"; sourceTree = "<group>"; };
+		28AB18F429447B6900E0089F /* 9_4_数组作为函数的参数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_4_数组作为函数的参数.c"; sourceTree = "<group>"; };
 		28B2808A290FFE71000C1909 /* Lean-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lean-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B8CE692926643900C5BA41 /* 5_2_IF_ELSE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_2_IF_ELSE.c; sourceTree = "<group>"; };
 		28B8CE6B29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_3_IF_ELSE_IF.c; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				28856352293C8898006D362D /* 9_1_数组的概述.c */,
 				28A8B0FC2943714100F6CD7B /* 9_2_数组在内存中的存储.c */,
 				28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */,
+				28AB18F429447B6900E0089F /* 9_4_数组作为函数的参数.c */,
 			);
 			path = "9_数组";
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
 				283A16F3293B4B8300FBCE4A /* 8_6_深入变量的细节.c in Sources */,
 				28723D5E292F979100BFEB87 /* 7_2_多文件开发.c in Sources */,
+				28AB18F529447B6900E0089F /* 9_4_数组作为函数的参数.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,
 				2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */,
