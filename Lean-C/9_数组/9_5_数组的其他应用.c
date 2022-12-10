@@ -59,25 +59,58 @@ int main(int argc, const char *argv[]){
 //        }
         
         // 优化
-        for(int i = 0; i<6;){
-            int num = arc4random_uniform(33)+1;
-            // 判断数组是否包含了这个随机数。
-            if(isContainsRandom(randomBalls, 6, num) == 0){
-                randomBalls[i] = num;
-                printf("%d  ",num);
-                i++;
-            }
-            else{
-                printf("重复产生%d  ",num);
-            }
-        }
-        
-        printf("\n");
-        for(int i = 0; i<6;i++){
-            printf("%d  ",randomBalls[i]);
-        }
+//        for(int i = 0; i<6;){
+//            int num = arc4random_uniform(33)+1;
+//            // 判断数组是否包含了这个随机数。
+//            if(isContainsRandom(randomBalls, 6, num) == 0){
+//                randomBalls[i] = num;
+//                printf("%d  ",num);
+//                i++;
+//            }
+//            else{
+//                printf("重复产生%d  ",num);
+//            }
+//        }
+//
+//        printf("\n");
+//        for(int i = 0; i<6;i++){
+//            printf("%d  ",randomBalls[i]);
+//        }
     }
     printf("\n");
+    
+    
+    // 2、数组排序 - 选择排序
+    {
+        // 要求从大到小排序
+        int nums[] = {3,22,18,19,10};
+        int length = sizeof(nums)/sizeof(int);
+        for (int i = 0; i<length-1; i++) {
+            // 打印当前数组
+            printf("init (%d     ) ",i);
+            for(int i = 0; i<length;i++){
+                printf("%d  ",nums[i]);
+            }
+            printf("\n");
+            
+            for (int j= i+1; j<=length-1; j++) {
+                printf("after(%d vs %d) ",i,j);
+                if(nums[i]< nums[j]){
+                    // 交换数据
+                    int temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                }
+                
+                // 打印当前数组
+                for(int i = 0; i<length;i++){
+                    printf("%d  ",nums[i]);
+                }
+                printf("\n");
+            }
+            printf("\n");
+        }
+    }
     return 0;;
 }
 /**
@@ -94,4 +127,9 @@ int main(int argc, const char *argv[]){
  
     1）、选择排序
     2）、冒泡排序
+ 
+ 3、选择排序
+ n个数，比较n-1轮。
+ 
+ 4、冒泡排序
  */
