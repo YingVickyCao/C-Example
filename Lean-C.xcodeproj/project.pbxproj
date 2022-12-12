@@ -59,6 +59,7 @@
 		28E9F9702933160700C0C29B /* 8_4_原码_反码_补码.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E9F96F2933160700C0C29B /* 8_4_原码_反码_补码.c */; };
 		28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EE5E032926F4E900D48864 /* 5_5_switch.c */; };
 		28F594D0292FA6B6006790EB /* 8_3_进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 8_3_进制之间的转换.c */; };
+		28FB1EAF29473D9F006AB9F2 /* 9_6_二维数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +150,7 @@
 		28E9F96F2933160700C0C29B /* 8_4_原码_反码_补码.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_4_原码_反码_补码.c"; sourceTree = "<group>"; };
 		28EE5E032926F4E900D48864 /* 5_5_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_5_switch.c; sourceTree = "<group>"; };
 		28F594CF292FA6B6006790EB /* 8_3_进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_3_进制之间的转换.c"; sourceTree = "<group>"; };
+		28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_6_二维数组.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				28A8B0FE29437BF400F6CD7B /* 9_3_数组的应用.c */,
 				28AB18F429447B6900E0089F /* 9_4_数组作为函数的参数.c */,
 				28AB18F62944BD7800E0089F /* 9_5_数组的其他应用.c */,
+				28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */,
 			);
 			path = "9_数组";
 			sourceTree = "<group>";
@@ -283,7 +286,6 @@
 			isa = PBXGroup;
 			children = (
 				28856350293C8863006D362D /* 9_数组 */,
-				28E9F96B2931C02000C0C29B /* temp */,
 				28723D66292F9F2100BFEB87 /* 8_进制 */,
 				28300BB0292D02250071A423 /* 7_预处理 */,
 				282F59A12925B06400B91ECD /* 3_变量 */,
@@ -334,13 +336,6 @@
 				28E4351B29116B4A00216C1A /* 2_Comment.c */,
 			);
 			path = "Example-3";
-			sourceTree = "<group>";
-		};
-		28E9F96B2931C02000C0C29B /* temp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +484,7 @@
 				28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */,
 				28C5CC68292B18760084506D /* 6_2_带参数的函数.c in Sources */,
 				28C5CC6C292B65B70084506D /* 6_4_return.c in Sources */,
+				28FB1EAF29473D9F006AB9F2 /* 9_6_二维数组.c in Sources */,
 				28723D62292F9C1B00BFEB87 /* mymath.c in Sources */,
 				28E9F9702933160700C0C29B /* 8_4_原码_反码_补码.c in Sources */,
 				282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */,
