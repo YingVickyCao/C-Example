@@ -65,6 +65,8 @@
 		28FB1EB529497642006AB9F2 /* 9_9_走出迷宫.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB429497642006AB9F2 /* 9_9_走出迷宫.c */; };
 		28FB1EB82949B6E0006AB9F2 /* 10_1_指针的使用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */; };
 		28FB1EBA2949D6CE006AB9F2 /* 10_2_指针的应用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */; };
+		28FB1EBC294C6F3C006AB9F2 /* 10_3_多级指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */; };
+		28FB1EBE294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -161,6 +163,8 @@
 		28FB1EB429497642006AB9F2 /* 9_9_走出迷宫.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_9_走出迷宫.c"; sourceTree = "<group>"; };
 		28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_1_指针的使用.c"; sourceTree = "<group>"; };
 		28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_2_指针的应用.c"; sourceTree = "<group>"; };
+		28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_3_多级指针.c"; sourceTree = "<group>"; };
+		28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_4_指针与整数的加减指针.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +361,8 @@
 			children = (
 				28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */,
 				28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */,
+				28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */,
+				28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */,
 			);
 			path = "10_指针";
 			sourceTree = "<group>";
@@ -484,6 +490,7 @@
 				2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */,
 				28F594D0292FA6B6006790EB /* 8_3_进制之间的转换.c in Sources */,
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
+				28FB1EBE294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c in Sources */,
 				28A2A1FE2929DE3C00AE0F5C /* 6_1_main.c in Sources */,
 				2867949E29287ADC007DB97E /* 5_6_while.c in Sources */,
 				28856353293C8898006D362D /* 9_1_数组的概述.c in Sources */,
@@ -515,6 +522,7 @@
 				28FB1EAF29473D9F006AB9F2 /* 9_6_二维数组.c in Sources */,
 				28723D62292F9C1B00BFEB87 /* mymath.c in Sources */,
 				28E9F9702933160700C0C29B /* 8_4_原码_反码_补码.c in Sources */,
+				28FB1EBC294C6F3C006AB9F2 /* 10_3_多级指针.c in Sources */,
 				282F59A02925AFE600B91ECD /* 3_2_变量的作用域.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

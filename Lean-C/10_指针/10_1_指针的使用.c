@@ -108,7 +108,7 @@ int main_10_1(int argc, const char *argv[]) {
     指针变量指向了另外一个变量。
  
     2）、好处：
-    访问变量的方式：
+    访问变量的方式：    => See Excel
     a、直接访问
        int num = 10；
        num = 20；
