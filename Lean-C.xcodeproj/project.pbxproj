@@ -60,6 +60,11 @@
 		28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EE5E032926F4E900D48864 /* 5_5_switch.c */; };
 		28F594D0292FA6B6006790EB /* 8_3_进制之间的转换.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F594CF292FA6B6006790EB /* 8_3_进制之间的转换.c */; };
 		28FB1EAF29473D9F006AB9F2 /* 9_6_二维数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */; };
+		28FB1EB129485308006AB9F2 /* 9_7_二维数组在内存中的存储.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB029485308006AB9F2 /* 9_7_二维数组在内存中的存储.c */; };
+		28FB1EB3294867B4006AB9F2 /* 9_8_字符串.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB2294867B4006AB9F2 /* 9_8_字符串.c */; };
+		28FB1EB529497642006AB9F2 /* 9_9_走出迷宫.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB429497642006AB9F2 /* 9_9_走出迷宫.c */; };
+		28FB1EB82949B6E0006AB9F2 /* 10_1_指针的使用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */; };
+		28FB1EBA2949D6CE006AB9F2 /* 10_2_指针的应用.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +156,11 @@
 		28EE5E032926F4E900D48864 /* 5_5_switch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_5_switch.c; sourceTree = "<group>"; };
 		28F594CF292FA6B6006790EB /* 8_3_进制之间的转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "8_3_进制之间的转换.c"; sourceTree = "<group>"; };
 		28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_6_二维数组.c"; sourceTree = "<group>"; };
+		28FB1EB029485308006AB9F2 /* 9_7_二维数组在内存中的存储.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_7_二维数组在内存中的存储.c"; sourceTree = "<group>"; };
+		28FB1EB2294867B4006AB9F2 /* 9_8_字符串.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_8_字符串.c"; sourceTree = "<group>"; };
+		28FB1EB429497642006AB9F2 /* 9_9_走出迷宫.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "9_9_走出迷宫.c"; sourceTree = "<group>"; };
+		28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_1_指针的使用.c"; sourceTree = "<group>"; };
+		28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_2_指针的应用.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +256,9 @@
 				28AB18F429447B6900E0089F /* 9_4_数组作为函数的参数.c */,
 				28AB18F62944BD7800E0089F /* 9_5_数组的其他应用.c */,
 				28FB1EAE29473D9F006AB9F2 /* 9_6_二维数组.c */,
+				28FB1EB029485308006AB9F2 /* 9_7_二维数组在内存中的存储.c */,
+				28FB1EB2294867B4006AB9F2 /* 9_8_字符串.c */,
+				28FB1EB429497642006AB9F2 /* 9_9_走出迷宫.c */,
 			);
 			path = "9_数组";
 			sourceTree = "<group>";
@@ -285,6 +298,7 @@
 		28B2808C290FFE71000C1909 /* Lean-C */ = {
 			isa = PBXGroup;
 			children = (
+				28FB1EB62949B24B006AB9F2 /* 10_指针 */,
 				28856350293C8863006D362D /* 9_数组 */,
 				28723D66292F9F2100BFEB87 /* 8_进制 */,
 				28300BB0292D02250071A423 /* 7_预处理 */,
@@ -336,6 +350,15 @@
 				28E4351B29116B4A00216C1A /* 2_Comment.c */,
 			);
 			path = "Example-3";
+			sourceTree = "<group>";
+		};
+		28FB1EB62949B24B006AB9F2 /* 10_指针 */ = {
+			isa = PBXGroup;
+			children = (
+				28FB1EB72949B6E0006AB9F2 /* 10_1_指针的使用.c */,
+				28FB1EB92949D6CE006AB9F2 /* 10_2_指针的应用.c */,
+			);
+			path = "10_指针";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,13 +471,16 @@
 				28B8CE70292674A500C5BA41 /* 3_4_如何产生1个随机数.c in Sources */,
 				28C5CC6E292B71AD0084506D /* 6_5_函数的声明和定义.c in Sources */,
 				2885634D293C7A97006D362D /* 8_9_格式控制符的总结.c in Sources */,
+				28FB1EB529497642006AB9F2 /* 9_9_走出迷宫.c in Sources */,
 				285491152938081B00B40525 /* 8_5_位运算.c in Sources */,
+				28FB1EBA2949D6CE006AB9F2 /* 10_2_指针的应用.c in Sources */,
 				281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */,
 				283A16F3293B4B8300FBCE4A /* 8_6_深入变量的细节.c in Sources */,
 				28723D5E292F979100BFEB87 /* 7_2_多文件开发.c in Sources */,
 				28AB18F529447B6900E0089F /* 9_4_数组作为函数的参数.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,
+				28FB1EB129485308006AB9F2 /* 9_7_二维数组在内存中的存储.c in Sources */,
 				2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */,
 				28F594D0292FA6B6006790EB /* 8_3_进制之间的转换.c in Sources */,
 				282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */,
@@ -469,6 +495,7 @@
 				28C458B3291F1A80009B4F76 /* 4_3_scanf函数的缓冲区.c in Sources */,
 				2885634F293C83F7006D362D /* 8_10_垃圾值怎么来的.c in Sources */,
 				2885634B293C7280006D362D /* 8_7_char变量的深入.c in Sources */,
+				28FB1EB3294867B4006AB9F2 /* 9_8_字符串.c in Sources */,
 				28C458BD291F9A8C009B4F76 /* 4_4_4_逗号运算符_逗号表达式.c in Sources */,
 				28EE5E042926F4E900D48864 /* 5_5_switch.c in Sources */,
 				2864D5DD29290E27001BA886 /* 5_11_goto.c in Sources */,
@@ -476,6 +503,7 @@
 				28AB18F72944BD7800E0089F /* 9_5_数组的其他应用.c in Sources */,
 				286794A02928D01A007DB97E /* 5_7_break_and_continue.c in Sources */,
 				28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */,
+				28FB1EB82949B6E0006AB9F2 /* 10_1_指针的使用.c in Sources */,
 				28A8B0FD2943714100F6CD7B /* 9_2_数组在内存中的存储.c in Sources */,
 				28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */,
 				282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */,
