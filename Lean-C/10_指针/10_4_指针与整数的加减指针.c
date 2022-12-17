@@ -1,9 +1,11 @@
 //  指针与整数的加减指针.c
 #include <stdio.h>
 
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_10_4(int argc, const char *argv[]) {
     // 加法
     {
+        // p + 1 => 地址 + 4
         {
             int num1 = 10;
             int num2 = 20;
@@ -16,7 +18,7 @@ int main(int argc, const char *argv[]) {
             
             printf("%d\n",*p2);//1o
         }
-        
+        // p + 1 => 地址 + 8
         {
             double d1 = 12.5;
             double* p1 = &d1;
@@ -31,7 +33,7 @@ int main(int argc, const char *argv[]) {
 
 /**
  
- 1、指针和整数进行加减
+ 1、指针和整数进行加减             => See Excel
     指针与整数进行加减。
     比如指针+1；
     并不是在指针地址的基础上进行加上一个字节的地址。而是在这个指针地址的基础上加上1个单位变量占用的字节数。
