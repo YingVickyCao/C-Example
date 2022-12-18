@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2807E8B2294ECCCB003D3100 /* 10_8_指针与指针之间的比较运算.c in Sources */ = {isa = PBXBuildFile; fileRef = 2807E8B1294ECCCB003D3100 /* 10_8_指针与指针之间的比较运算.c */; };
+		2807E8B4294EF816003D3100 /* 10_9_指针与字符串.c in Sources */ = {isa = PBXBuildFile; fileRef = 2807E8B3294EF816003D3100 /* 10_9_指针与字符串.c */; };
+		2807E8B6294F19BF003D3100 /* 10_10_面试题.c in Sources */ = {isa = PBXBuildFile; fileRef = 2807E8B5294F19BF003D3100 /* 10_10_面试题.c */; };
+		2807E8B8294F1CB3003D3100 /* 10_11_字符串数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 2807E8B7294F1CB3003D3100 /* 10_11_字符串数组.c */; };
+		2807E8BA294F2032003D3100 /* 10_12_字符串排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 2807E8B9294F2032003D3100 /* 10_12_字符串排序.c */; };
 		281B20DA2928DDA00065D5F4 /* 5_9_for.c in Sources */ = {isa = PBXBuildFile; fileRef = 281B20D92928DDA00065D5F4 /* 5_9_for.c */; };
 		282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */; };
 		282F599E2925AE6A00B91ECD /* 5_1_IF.c in Sources */ = {isa = PBXBuildFile; fileRef = 282F599D2925AE6A00B91ECD /* 5_1_IF.c */; };
@@ -68,6 +73,8 @@
 		28FB1EBC294C6F3C006AB9F2 /* 10_3_多级指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */; };
 		28FB1EBE294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */; };
 		28FB1EC0294D87FC006AB9F2 /* 10_5_指针与数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EBF294D87FC006AB9F2 /* 10_5_指针与数组.c */; };
+		28FB1EC2294DBC5E006AB9F2 /* 10_6_存储指针的数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EC1294DBC5E006AB9F2 /* 10_6_存储指针的数组.c */; };
+		28FB1EC4294DC32D006AB9F2 /* 10_7_指针与指针之间的加减运算.c in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1EC3294DC32D006AB9F2 /* 10_7_指针与指针之间的加减运算.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +108,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2807E8B1294ECCCB003D3100 /* 10_8_指针与指针之间的比较运算.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_8_指针与指针之间的比较运算.c"; sourceTree = "<group>"; };
+		2807E8B3294EF816003D3100 /* 10_9_指针与字符串.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_9_指针与字符串.c"; sourceTree = "<group>"; };
+		2807E8B5294F19BF003D3100 /* 10_10_面试题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_10_面试题.c"; sourceTree = "<group>"; };
+		2807E8B7294F1CB3003D3100 /* 10_11_字符串数组.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_11_字符串数组.c"; sourceTree = "<group>"; };
+		2807E8B9294F2032003D3100 /* 10_12_字符串排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_12_字符串排序.c"; sourceTree = "<group>"; };
 		281B20D92928DDA00065D5F4 /* 5_9_for.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_9_for.c; sourceTree = "<group>"; };
 		282F599629259C5200B91ECD /* 4_5_运算符的优先级和结核性.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4_5_运算符的优先级和结核性.c"; sourceTree = "<group>"; };
 		282F599D2925AE6A00B91ECD /* 5_1_IF.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_1_IF.c; sourceTree = "<group>"; };
@@ -167,6 +179,8 @@
 		28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_3_多级指针.c"; sourceTree = "<group>"; };
 		28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_4_指针与整数的加减指针.c"; sourceTree = "<group>"; };
 		28FB1EBF294D87FC006AB9F2 /* 10_5_指针与数组.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_5_指针与数组.c"; sourceTree = "<group>"; };
+		28FB1EC1294DBC5E006AB9F2 /* 10_6_存储指针的数组.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_6_存储指针的数组.c"; sourceTree = "<group>"; };
+		28FB1EC3294DC32D006AB9F2 /* 10_7_指针与指针之间的加减运算.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "10_7_指针与指针之间的加减运算.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,6 +380,13 @@
 				28FB1EBB294C6F3C006AB9F2 /* 10_3_多级指针.c */,
 				28FB1EBD294CADAC006AB9F2 /* 10_4_指针与整数的加减指针.c */,
 				28FB1EBF294D87FC006AB9F2 /* 10_5_指针与数组.c */,
+				28FB1EC1294DBC5E006AB9F2 /* 10_6_存储指针的数组.c */,
+				28FB1EC3294DC32D006AB9F2 /* 10_7_指针与指针之间的加减运算.c */,
+				2807E8B1294ECCCB003D3100 /* 10_8_指针与指针之间的比较运算.c */,
+				2807E8B3294EF816003D3100 /* 10_9_指针与字符串.c */,
+				2807E8B5294F19BF003D3100 /* 10_10_面试题.c */,
+				2807E8B7294F1CB3003D3100 /* 10_11_字符串数组.c */,
+				2807E8B9294F2032003D3100 /* 10_12_字符串排序.c */,
 			);
 			path = "10_指针";
 			sourceTree = "<group>";
@@ -471,6 +492,7 @@
 			files = (
 				28856349293C56E3006D362D /* 8_8_int类型的修饰符.c in Sources */,
 				28C458C4291FB046009B4F76 /* 4_4_6_逻辑运算符_逻辑表达式.c in Sources */,
+				2807E8BA294F2032003D3100 /* 10_12_字符串排序.c in Sources */,
 				28300BB2292D02440071A423 /* 7_1_文件包含指令.c in Sources */,
 				28C5CC6A292B23B20084506D /* 6_3_带多个参数的函数.c in Sources */,
 				28A7ABF8291BE04100670DF3 /* 4_1_数据转换类型.c in Sources */,
@@ -488,6 +510,7 @@
 				28723D5E292F979100BFEB87 /* 7_2_多文件开发.c in Sources */,
 				28AB18F529447B6900E0089F /* 9_4_数组作为函数的参数.c in Sources */,
 				28C458BF291F9E8A009B4F76 /* 4_4_5_比较运算符_比较表达式.c in Sources */,
+				28FB1EC4294DC32D006AB9F2 /* 10_7_指针与指针之间的加减运算.c in Sources */,
 				2846105E292A67A900D07E42 /* 3_5_局部变量_全局变量.c in Sources */,
 				28FB1EB129485308006AB9F2 /* 9_7_二维数组在内存中的存储.c in Sources */,
 				2864D5DB2928EE27001BA886 /* 5_10_嵌套循环.c in Sources */,
@@ -512,8 +535,11 @@
 				28C458BB291F956B009B4F76 /* 4_4_3_自增自减运算符.c in Sources */,
 				28AB18F72944BD7800E0089F /* 9_5_数组的其他应用.c in Sources */,
 				286794A02928D01A007DB97E /* 5_7_break_and_continue.c in Sources */,
+				28FB1EC2294DBC5E006AB9F2 /* 10_6_存储指针的数组.c in Sources */,
 				28B8CE6A2926643900C5BA41 /* 5_2_IF_ELSE.c in Sources */,
+				2807E8B4294EF816003D3100 /* 10_9_指针与字符串.c in Sources */,
 				28FB1EB82949B6E0006AB9F2 /* 10_1_指针的使用.c in Sources */,
+				2807E8B8294F1CB3003D3100 /* 10_11_字符串数组.c in Sources */,
 				28A8B0FD2943714100F6CD7B /* 9_2_数组在内存中的存储.c in Sources */,
 				28B8CE6C29266A7200C5BA41 /* 5_3_IF_ELSE_IF.c in Sources */,
 				282F599729259C5200B91ECD /* 4_5_运算符的优先级和结核性.c in Sources */,
@@ -521,7 +547,9 @@
 				28C458B9291F939A009B4F76 /* 4_4_2_赋值运算符.c in Sources */,
 				28A7ABFA291BE0F800670DF3 /* 4_2_printf.c in Sources */,
 				28C5CC68292B18760084506D /* 6_2_带参数的函数.c in Sources */,
+				2807E8B2294ECCCB003D3100 /* 10_8_指针与指针之间的比较运算.c in Sources */,
 				28C5CC6C292B65B70084506D /* 6_4_return.c in Sources */,
+				2807E8B6294F19BF003D3100 /* 10_10_面试题.c in Sources */,
 				28FB1EAF29473D9F006AB9F2 /* 9_6_二维数组.c in Sources */,
 				28723D62292F9C1B00BFEB87 /* mymath.c in Sources */,
 				28E9F9702933160700C0C29B /* 8_4_原码_反码_补码.c in Sources */,

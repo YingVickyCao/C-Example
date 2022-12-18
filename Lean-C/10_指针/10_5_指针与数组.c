@@ -10,7 +10,8 @@ void test_10_5(int* array, int length){ // better
     printf("\n");
 }
 
-int main(int argc, const char *argv[]) {
+//int main(int argc, const char *argv[]) {
+int main_10_5(int argc, const char *argv[]) {
     // 1、定义1个指针指向数组中的元素
     {
         int array[3] = {10,20,30};
