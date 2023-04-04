@@ -109,7 +109,7 @@ printf("\n");
     }
 }
 
-// 3、数组排序 - 选择排序
+// 3、数组排序 - 冒泡排序
 {
     int nums[] = {3, 22, 18, 19, 10};
     int length = sizeof(nums) / sizeof(int);
